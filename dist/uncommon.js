@@ -26,7 +26,7 @@ exports.default = function (_ref) {
           path.replaceWith(id);
 
           // create an import declaration
-          program.unshiftContainer('body', t.importDeclaration([t.importNamespaceSpecifier(id)], t.stringLiteral(module)));
+          program.unshiftContainer('body', t.importDeclaration([t.importDefaultSpecifier(id)], t.stringLiteral(module)));
         }
       }
     }

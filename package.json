@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-uncommon-transform",
-  "version": "0.5.1",
+  "version": "0.6",
   "description": "Transform CommonJS require() into ES2015 imports",
   "main": "dist/uncommon.js",
   "scripts": {
